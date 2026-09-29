@@ -1,0 +1,7 @@
+{
+  "previewPort": 3000,
+  "healthPath": "/",
+  "startCommand": "dotnet build",
+  "secrets": [],
+  "notes": "WPF Windows desktop application (.NET 8). Cannot run in Linux/Docker sandbox. Build on Windows with: dotnet build -c Release. Publish with: dotnet publish -c Release -r win-x64 --self-contained true"
+}

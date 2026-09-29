@@ -1,0 +1,60 @@
+<Window x:Class="VeytrixVPN.Views.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Width="500"
+        Height="380"
+        WindowStartupLocation="CenterOwner"
+        Background="#0B0F14"
+        Foreground="White"
+        Title="About Veytrix VPN">
+
+    <Grid Margin="30">
+
+        <StackPanel>
+
+            <TextBlock
+                Text="VEYTRIX VPN"
+                FontSize="30"
+                FontWeight="Bold"
+                Margin="0,0,0,10"/>
+
+            <TextBlock
+                Text="Windows VPN Client"
+                Foreground="#8D99A8"
+                FontSize="15"
+                Margin="0,0,0,25"/>
+
+            <TextBlock
+                Text="© 2026 Veytrix Games"
+                FontSize="17"
+                FontWeight="SemiBold"
+                Margin="0,0,0,10"/>
+
+            <TextBlock
+                Text="Developed and distributed by Veytrix Games."
+                TextWrapping="Wrap"
+                Margin="0,0,0,15"/>
+
+            <TextBlock
+                Text="Veytrix VPN and its original source code are protected by applicable intellectual-property rights."
+                TextWrapping="Wrap"
+                Foreground="#B8C1CC"
+                Margin="0,0,0,15"/>
+
+            <TextBlock
+                Text="Unauthorized copying, redistribution, modification, or false claims of authorship are not permitted."
+                TextWrapping="Wrap"
+                Foreground="#B8C1CC"
+                Margin="0,0,0,25"/>
+
+            <Button
+                Content="CLOSE"
+                Width="120"
+                HorizontalAlignment="Left"
+                Click="Close_Click"/>
+
+        </StackPanel>
+
+    </Grid>
+
+</Window>
