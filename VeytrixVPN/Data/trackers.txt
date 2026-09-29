@@ -1,0 +1,5 @@
+# Veytrix VPN tracker blocking list
+
+||tracker.example.com^
+||tracking.example.com^
+||analytics.example.com^

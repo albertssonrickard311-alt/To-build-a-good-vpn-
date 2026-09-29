@@ -1,0 +1,5 @@
+# Veytrix VPN ad blocking list
+
+||ads.example.com^
+||advertising.example.com^
+||banner.example.com^

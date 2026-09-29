@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <AssemblyName>VeytrixVPN</AssemblyName>
+    <RootNamespace>VeytrixVPN</RootNamespace>
+
+    <Company>Veytrix Games</Company>
+    <Product>Veytrix VPN</Product>
+    <Description>Veytrix VPN - Secure VPN Client</Description>
+    <Copyright>Copyright © 2026 Veytrix Games. All rights reserved.</Copyright>
+
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <InformationalVersion>1.0.0</InformationalVersion>
+
+    <ApplicationIcon>Assets\VeytrixVPN.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\VeytrixVPN.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Data\servers.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\adblock.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\trackers.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

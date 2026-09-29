@@ -1,0 +1,24 @@
+[
+  {
+    "Id": "se-stockholm-001",
+    "Country": "Sweden",
+    "City": "Stockholm",
+    "Hostname": "se-stockholm-001.yourdomain.com",
+    "IPv4": "YOUR_SERVER_IPV4",
+    "IPv6": "YOUR_SERVER_IPV6",
+    "Port": 51820,
+    "Load": 15,
+    "PublicKey": "YOUR_SERVER_PUBLIC_KEY"
+  },
+  {
+    "Id": "de-frankfurt-001",
+    "Country": "Germany",
+    "City": "Frankfurt",
+    "Hostname": "de-frankfurt-001.yourdomain.com",
+    "IPv4": "YOUR_SERVER_IPV4",
+    "IPv6": "YOUR_SERVER_IPV6",
+    "Port": 51820,
+    "Load": 22,
+    "PublicKey": "YOUR_SERVER_PUBLIC_KEY"
+  }
+]
